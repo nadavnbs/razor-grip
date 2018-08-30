@@ -12,6 +12,7 @@ import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {MatCardModule} from '@angular/material/card';
     NgbCarouselModule,
     NoopAnimationsModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
